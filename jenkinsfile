@@ -49,7 +49,7 @@ pipeline
                 deploy adapters: [tomcat9(url: "${tomcatServerUrl}",
                 credentialsId:'8ba852dc-753a-4983-bb3b-9f17de407d57')],
                 war: 'target/*.war',
-                contextPath: 'pipelineSCM-student-app'
+                contextPath: 'pipelineSCM-Student-Project'
             }
         }
     }    
